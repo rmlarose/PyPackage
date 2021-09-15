@@ -4,13 +4,12 @@
 .idea/
 .coverage
 *.dat
-*.ipynp
 *.ipynb_checkpoints
 *.jupyter_cache
 _build
 __pycache__/
 docs/build/
-mitiq.egg-info/
+*.egg-info/
 dist/
 build/
 coverage.xml
