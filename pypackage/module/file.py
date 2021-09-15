@@ -16,6 +16,7 @@ from dataclasses import dataclass
 from typing import Any, Sequence
 
 import numpy as np
+from numpy.typing import ArrayLike
 
 
 @dataclass(frozen=True)
@@ -27,5 +28,5 @@ class Object:
         return len(self.items)
 
     @property
-    def asarray(self) -> np.ndarray:
+    def asarray(self) -> ArrayLike:
         return np.array(self.items)
