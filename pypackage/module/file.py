@@ -27,5 +27,5 @@ class Object:
         return len(self.items)
 
     @property
-    def asarray(self) -> np.ndarray[Any]:
+    def asarray(self) -> np.typing.NDArray[Any]:
         return np.array(self.items)
