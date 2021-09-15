@@ -12,8 +12,6 @@
 
 """Unit tests for file.py."""
 
-from typing import Any
-
 import pytest
 
 import numpy as np
@@ -21,7 +19,7 @@ from pypackage.module.file import Object
 
 
 @pytest.mark.parametrize("items", [[1, 2, 10], [np.pi, np.e]])
-def test_object(items: Any) -> None:
+def test_object(items):
     obj = Object(items)
     assert obj.num_items == len(items)
     assert np.allclose(obj.asarray, np.array(items))
