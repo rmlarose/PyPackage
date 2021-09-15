@@ -12,6 +12,8 @@
 
 """Unit tests for file.py."""
 
+from typing import Any
+
 import pytest
 
 import numpy as np
