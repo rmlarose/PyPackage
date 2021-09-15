@@ -13,9 +13,10 @@
 """Whatever this file is for."""
 
 from dataclasses import dataclass
-from typing import Any, Sequence
+from typing import Sequence
 
 import numpy as np
+from numpy.typing import ArrayLike
 
 
 @dataclass(frozen=True)
@@ -27,5 +28,5 @@ class Object:
         return len(self.items)
 
     @property
-    def asarray(self) -> Any:
+    def asarray(self) -> ArrayLikeAny:
         return np.array(self.items)
