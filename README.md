@@ -14,27 +14,27 @@ Generate your repository from this template at https://github.com/rmlarose/PyPac
 ### Make it your own
 
 1. Refactor the `PyPackage` directory name to your package name.
-  - **Recomended**: Use an IDE refactoring tool, e.g. PyCharm's refactor. This will update `import`s and paths in `setup.py`.
+    - **Recomended**: Use an IDE refactoring tool, e.g. PyCharm's refactor. This will update `import`s and paths in `setup.py`.
 
 1. Update `setup.py` with your package's name, description, author, URLs, etc.
 
 1. Try installing your package and make sure it still works.
-  - Run `python -m pip install -e .` in the directory with `setup.py`.
-  - In `python`, do `import <your package name>`.
-  - *Tip*: You may need to "restart" your virtual environment to try another install. If so, run `pip freeze | xargs pip uninstall -y`.
+    - Run `python -m pip install -e .` in the directory with `setup.py`.
+    - In `python`, do `import <your package name>`.
+    - *Tip*: You may need to "restart" your virtual environment to try another install. If so, run `pip freeze | xargs pip uninstall -y`.
 
 1. Update the GitHub actions in `.github`.
-  - Change `PyPackage` to your package name.
+    - Change `PyPackage` to your package name.
 
 1. Update your mypy config, changing `exclude = <your package name>.*_test.py`.
 
 1. Update your `README`.
-  - Don't forget to update the badge links to your repository.
+    - Don't forget to update the badge links to your repository.
 
 1. Push to GitHub and make sure your actions are still working properly.
 
 1. Code away!
-  - Scrap the simple `Object` and tests, add useful code, rename `module`, and add other modules.
+    - Scrap the simple `Object` and tests, add useful code, rename `module`, and add other modules.
 
 ## Questions, comments?
 
