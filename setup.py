@@ -46,11 +46,11 @@ setup(
     author="Ryan LaRose",
     author_email="rlarose@umich.edu",
     license="Apache 2.0",
-    url="https://github.com/rmlarose/pypackage/",
+    url="https://github.com/rmlarose/PyPackage/",
     project_urls={
-        "Bug Tracker": "https://github.com/rmlarose/pypackage/issues/",
-        "Documentation": "https://github.com/rmlarose/pypackage/",
-        "Source": "https://github.com/rmlarose/pypackage/",
+        "Bug Tracker": "https://github.com/rmlarose/PyPackage/issues/",
+        "Documentation": "https://github.com/rmlarose/PyPackage/",
+        "Source": "https://github.com/rmlarose/PyPackage/",
     },
     python_requires=">=3.7",
 )
